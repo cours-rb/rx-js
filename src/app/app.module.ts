@@ -4,12 +4,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { TimerComponent } from './timer.component';
 import { CounterComponent } from './counter.component';
+import { ListComponent } from './list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TimerComponent,
-    CounterComponent
+    CounterComponent,
+    ListComponent
   ],
   imports: [
     BrowserModule
