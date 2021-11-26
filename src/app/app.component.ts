@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
   Welcome to {{title}}!
 </h1>
 <rx-timer></rx-timer>
+<rx-counter></rx-counter>
 `,
   styles: []
 })
